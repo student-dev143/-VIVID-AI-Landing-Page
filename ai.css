@@ -205,27 +205,27 @@ span{
         overflow-x:hidden ;
     }
    nav{
-        width: 50%;
+               width: 100%;
         display: flex;
-    justify-content: space-evenly;
     align-items: center;
-        gap: 60px;
+      gap: 0;
 
    
 }
 h1{
-    margin-left: -7vw;
+           margin-left: -33px;
+                   font-size: 1.5rem;
 }
 #nav-left{
     
-              margin-right: 71vw;
+                margin-right: 310px;
 }
 
 #nav-center{
 display: none;
 }
 #nav-right{
-                margin-left: -50vw;
+                                   margin-left: -230px;
         display: flex;
         justify-content: center;
         gap: 2vw;
@@ -234,23 +234,24 @@ i{
     display: flex;
     font-size: 3rem;
     color:white ;
-    margin-left: -9vw;
+    
 }
 img{
-                width: 28vw;
-        height: 8vh;
+                   width: 18vw;
+        height: 7vh;
         margin-top: 2vh;
+        
 }
 #sign{
                 height: 4vh;
-        width: 14vw;
+                width: 19vw;
         border-radius: 7px;
      
 }
 #Free{
                height: 4vh;
-        width: 14vw;
-        border-radius: 7px;
+               width: 16vw;
+               border-radius: 4px;
                 padding: inherit;
     
 }
@@ -261,10 +262,12 @@ img{
     flex-direction: column;
 }
 .content-right img{
+    margin-top: 5vh;
                  width: 89vw;
-        margin-left: 1vh;
+        margin-left: 20px;
         height: 44vh;
         margin-bottom: 4vh;
+        
 }
 .content-left{
               height: 66vh;
@@ -278,7 +281,7 @@ img{
         align-items: center;
         flex-direction: column;
         gap: 31px;
-          margin-top: 5vh;
+                margin-top: 9vh;
 
 }
 h2{
@@ -294,8 +297,8 @@ p{
       
 }
 #start{
-          height: 9vh;
-        width: 58vw;
+          height: 10vh;
+        width: 240px;
    padding: 5px;
    border-radius: 5px;
    font-size: 1rem;
